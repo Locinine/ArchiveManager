@@ -41,3 +41,6 @@ md-content.md-default-theme {
     border-radius: 99%;
   }
   
+  .grid_image {
+    width: 100%;
+  }

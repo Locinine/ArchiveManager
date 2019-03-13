@@ -21,6 +21,18 @@ app.controller('AppCtrl', ['$scope', '$mdBottomSheet','$mdSidenav', '$mdDialog',
       icon: 'message'
     }
   ];
+
+  $scope.grid_images = []
+
+  for (var x=0; x<20; x++) {
+    $scope.grid_images.push(
+      {
+        title: faker.lorem.words(),
+        image : faker.image.image()
+      }
+    )
+  }
+
   $scope.admin = [
     {
       link : '',
