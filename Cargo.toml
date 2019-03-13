@@ -1,0 +1,8 @@
+[package]
+name = "archive_manager"
+version = "0.1.0"
+authors = ["George Atkinson <geomyles@yahoo.co.uk>", "Farrah Lord-Newcombe <>"]
+edition = "2018"
+
+[dependencies]
+rocket = "*"
